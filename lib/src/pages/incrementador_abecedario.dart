@@ -40,6 +40,7 @@ class _IncrementadorAbecedarioState extends State<IncrementadorAbecedario> {
           },
           child: Icon(Icons.arrow_back_rounded),
         ),
+        SizedBox(width: 20,),
         FloatingActionButton(
           onPressed: (){
             _incrementarAbecedario();
